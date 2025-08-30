@@ -1,0 +1,105 @@
+/* Grid layout for the whole page */
+      
+
+.container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 20px;
+      }
+
+      /* Styling for individual sections */
+      .recipe, .pizza, .achar {
+        border: 2px solid #ddd;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(105, 87, 87, 0.1);
+      }
+
+      .recipe img, .pizza img, .achar img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      /* Title styles */
+      h1, h2, h3 {
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Add some spacing for lists */
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      /* Style for each item in the lists */
+      li {
+
+      }
+
+
+HEADER{
+  
+  font-size: 50px ;
+  background-color: rgb(195, 201, 195);
+}
+
+
+
+body {
+    background-color: rgb(150, 147, 147);
+      font-family: Arial, sans-serif;
+      background-color: #d3d7da;   /* Light background */
+       
+} 
+    
+ h1 {
+      text-align: center;/* light text */
+      color: #662d2b;
+ } 
+
+ol{
+      margin-bottom: 10px;
+  }
+
+     h2 {
+       text-align: center;/* light text */
+      color: #662d2b;
+      color: #323e7e;
+      border-bottom: 8px solid #251111;
+      padding-bottom: 3px;
+     }
+
+    
+h2{
+       text-align: center;/* light text */
+      color: #662d2b;
+      color: #323e7e; 
+
+}
+
+
+h2{
+       text-align: center;/* light text */
+      
+  margin-bottom: 16px;
+     color: #03050a;
+}
+
+
+h2{
+
+
+     color: #0f0f11;
+}
+
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c9b8b8;
+}
+
